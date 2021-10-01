@@ -15,7 +15,7 @@ RUN mvn package
 
 FROM openjdk:alpine
 
-ENV PORT 8080
+ENV PORT 8081
 
 EXPOSE 8080
 
